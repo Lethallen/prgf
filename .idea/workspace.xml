@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b88b7d2-8fe6-47fe-b7dd-cb37d5f2c7ff" name="Changes" comment="added panel, removed interface class">
+    <list default="true" id="1b88b7d2-8fe6-47fe-b7dd-cb37d5f2c7ff" name="Changes" comment="added &quot;panel.add....&quot;">
       <change beforePath="$PROJECT_DIR$/src/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canvas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663772037950</updated>
-      <workItem from="1663772055555" duration="2248000" />
+      <workItem from="1663772055555" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1663772588925</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663774279793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added &quot;panel.add....&quot;">
+      <created>1663774358861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663774358861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
     <MESSAGE value="runnable class" />
     <MESSAGE value="frame" />
     <MESSAGE value="added panel, removed interface class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added panel, removed interface class" />
+    <MESSAGE value="added &quot;panel.add....&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added &quot;panel.add....&quot;" />
   </component>
 </project>

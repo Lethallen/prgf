@@ -24,12 +24,20 @@ public class Canvas {
            frame.setResizable(false);
            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-           panel = new JPanel();
+           img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+           panel = new JPanel() {
+               @Override
+               protected void paintComponent(Graphics g) {
+                   super.paintComponent(g);
+                   g.drawImage(img,0,0,null);
+               }
+           };
            panel.setPreferredSize(new Dimension(width, height));
            frame.add(panel, BorderLayout.CENTER);
            frame.pack();
            frame.setVisible(true);
 
-           img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
        }
 }
