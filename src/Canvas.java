@@ -26,6 +26,7 @@ public class Canvas {
 
            panel = new JPanel();
            panel.setPreferredSize(new Dimension(width, height));
+           frame.add(panel, BorderLayout.CENTER);
            frame.pack();
            frame.setVisible(true);
 
