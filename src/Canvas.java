@@ -15,7 +15,9 @@ public class Canvas {
 
     private final JFrame frame;
     private final JPanel panel;
-    private BufferedImage img;
+    private final BufferedImage img;
+
+    int x, y;
 
        public Canvas (int width, int height)
        {
@@ -44,11 +46,16 @@ public class Canvas {
 
            panel.requestFocus();
            panel.requestFocusInWindow();
+
+           x=width/2;
+           y=height/2;
            panel.addKeyListener(new KeyAdapter() {
                @Override
                public void keyPressed(KeyEvent e) {
                    super.keyPressed(e);
-                   if(e.getKeyCode()==KeyEvent.VK_P){img.setRGB(20,20,0xff0000); panel.repaint();}
+                   if(e.getKeyCode()==KeyEvent.VK_UP){img.setRGB(x,y,0xff0000);y--;}
+                   panel.repaint();
+
                }
            });
 
