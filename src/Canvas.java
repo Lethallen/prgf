@@ -12,8 +12,10 @@ import javax.swing.WindowConstants;
 public class Canvas {
 
     private final JFrame frame;
+    private final JPanel panel;
+    private BufferedImage img;
 
-       public Canvas (int height, int width)
+       public Canvas (int width, int height)
        {
            frame = new JFrame();
 
@@ -22,5 +24,11 @@ public class Canvas {
            frame.setResizable(false);
            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
+           panel = new JPanel();
+           panel.setPreferredSize(new Dimension(width, height));
+           frame.pack();
+           frame.setVisible(true);
+
+           img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
        }
 }

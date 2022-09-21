@@ -13,6 +13,6 @@ import javax.swing.WindowConstants;
 public class Main {
     public static void main (String[] args)
     {
-
+        Canvas Canvas = new Canvas(800,600);
     }
 }

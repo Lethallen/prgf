@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b88b7d2-8fe6-47fe-b7dd-cb37d5f2c7ff" name="Changes" comment="runnable class">
-      <change afterPath="$PROJECT_DIR$/src/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CanvasInterface.java" afterDir="false" />
+    <list default="true" id="1b88b7d2-8fe6-47fe-b7dd-cb37d5f2c7ff" name="Changes" comment="frame">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CanvasInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663772037950</updated>
-      <workItem from="1663772055555" duration="1419000" />
+      <workItem from="1663772055555" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1663772588925</created>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663772931957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="frame">
+      <created>1663773606277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663773606277</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
     <MESSAGE value="runnable class" />
-    <option name="LAST_COMMIT_MESSAGE" value="runnable class" />
+    <MESSAGE value="frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="frame" />
   </component>
 </project>
