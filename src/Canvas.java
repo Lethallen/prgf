@@ -25,6 +25,7 @@ public class Canvas {
            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
            img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+           img.setRGB(10,10,0xff0000);
 
            panel = new JPanel() {
                @Override
