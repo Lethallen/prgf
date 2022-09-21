@@ -2,6 +2,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
@@ -25,7 +27,8 @@ public class Canvas {
            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
            img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
-           img.setRGB(10,10,0xff0000);
+
+
 
            panel = new JPanel() {
                @Override
@@ -38,6 +41,16 @@ public class Canvas {
            frame.add(panel, BorderLayout.CENTER);
            frame.pack();
            frame.setVisible(true);
+
+           panel.requestFocus();
+           panel.requestFocusInWindow();
+           panel.addKeyListener(new KeyAdapter() {
+               @Override
+               public void keyPressed(KeyEvent e) {
+                   super.keyPressed(e);
+                   if(e.getKeyCode()==KeyEvent.VK_P){img.setRGB(20,20,0xff0000); panel.repaint();}
+               }
+           });
 
 
        }
